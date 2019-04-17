@@ -97,6 +97,7 @@ class Snake
     void clearApple();
     bool eatApple();
     void drawScore(uint8_t score);
+    bool isWinner();
 };
 
 #endif

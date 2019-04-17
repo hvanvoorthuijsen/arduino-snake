@@ -73,8 +73,7 @@ void snakeLoop()
   {
     if (snakeGrow)
     {
-      DEBUG_PRINT(snake.snakeLength);
-      if (snake.snakeLength >= snake.maxParts)
+      if (snake.isWinner())
       {
         display.setCursor(10, 10);
         display.println(F("WINNER"));

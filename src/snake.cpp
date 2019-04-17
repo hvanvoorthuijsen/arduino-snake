@@ -323,3 +323,8 @@ bool Snake::eatApple()
     }
     return false;
 }
+
+bool Snake::isWinner()
+{
+    return this->snakeLength >= this->maxParts;
+}

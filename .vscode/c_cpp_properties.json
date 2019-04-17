@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "name": "Win32",
+      "includePath": [
+        "${workspaceRoot}",
+        "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
+        "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries",
+        "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\avr\\include",
+        "C:\\Program Files (x86)\\Arduino\\hardware\\tools\\avr\\lib\\gcc\\avr\\4.9.2\\include",
+        "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\variants\\standard",
+        "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\libraries\\SPI\\src",
+        "F:\\SkyDrive\\Documenten PC\\Arduino\\libraries\\Adafruit_GFX_Library",
+        "F:\\SkyDrive\\Documenten PC\\Arduino\\libraries\\Adafruit-PCD8544-Nokia-5110-LCD-library-master",
+        "F:\\SkyDrive\\Documenten PC\\Arduino\\libraries",
+        "F:\\SkyDrive\\Documenten PC\\Arduino\\libraries\\SD\\src",
+        "C:\\Users\\Henk-Jan\\OneDrive\\Documenten PC\\Arduino\\libraries\\Adafruit_GFX_Library",
+        "C:\\Users\\Henk-Jan\\OneDrive\\Documenten PC\\Arduino\\libraries\\Adafruit-PCD8544-Nokia-5110-LCD-library-master",
+        "C:\\Users\\Henk-Jan\\OneDrive\\Documenten PC/Arduino/libraries",
+        "C:\\Users\\Henk-Jan\\OneDrive\\Documenten PC\\Arduino\\libraries\\SD\\src"
+      ],
+      "browse": {
+        "limitSymbolsToIncludedHeaders": false,
+        "path": [
+          "C:\\Program Files (x86)\\Arduino\\hardware\\arduino\\avr\\cores\\arduino",
+          "${workspaceRoot}"
+        ]
+      },
+      "intelliSenseMode": "msvc-x64"
+    }
+  ],
+  "version": 4
+}

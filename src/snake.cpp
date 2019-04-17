@@ -91,6 +91,21 @@ void Snake::init(uint8_t parts, uint8_t startx, uint8_t starty)
     this->currentPartId = 2;
     this->snakeLength = 2;
 
+    if (this->ghostMode)
+    {
+        this->playingField[0] = 0;
+        this->playingField[1] = snakeXPositions;
+        this->playingField[2] = 0;
+        this->playingField[3] = snakeYPositions;
+    }
+    else
+    {
+        this->playingField[0] = 1;
+        this->playingField[1] = snakeXPositions - 1;
+        this->playingField[2] = 1;
+        this->playingField[3] = snakeYPositions - 1;
+    }
+
     display.clearDisplay();
     if (!this->ghostMode)
     {

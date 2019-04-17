@@ -44,21 +44,6 @@ void setup()
   display.setTextColor(BLACK, WHITE);
   display.setTextWrap(true);
 
-  if (snake.ghostMode)
-  {
-    snake.playingField[0] = 0;
-    snake.playingField[1] = 21;
-    snake.playingField[2] = 0;
-    snake.playingField[3] = 12;
-  }
-  else
-  {
-    snake.playingField[0] = 1;
-    snake.playingField[1] = 20;
-    snake.playingField[2] = 1;
-    snake.playingField[3] = 11;
-  }
-
   startSnake();
 }
 
